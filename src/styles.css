@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+.input-login {
+    @apply  w-full text-slate-400 bg-slate-800 rounded-lg p-2;
+  }
+.label-default{
+    @apply block text-white/80 text-sm font-medium
+}
+
+.button-default{
+    @apply w-fit cursor-pointer bg-indigo-700 text-white p-12 py-1 rounded-lg hover:bg-indigo-600 
+}

@@ -1,0 +1,36 @@
+<div class="h-screen w-screen bg-[url(./assets/fundo.png)] bg-cover bg-no-repeat  grid grid-flow-col grid-rows-4 overflow-hidden ">
+    <h1 class="text-white text-6xl w-screen flex row-span-1 justify-center p-8 mt-12 font-mono font-bold tracking-[4px]">Orbis</h1>
+
+    <div class="relative row-span-3 justify-center flex">       
+        <section id="login">
+            <form  (ngSubmit)="submitForm()" class=" gap-4 grid grid-flow-col grid-rows-7 h-[480px] w-[480px] p-6 bg-slate-900/70 rounded-2xl shadow-gray-950/50 ring-1 ring-slate-950 ">
+
+                <h2 class="text-white/80 text-2xl p-2 w-full justify-center flex mt-4 mb-5">Bem Vindo de Volta</h2>
+
+               <div class="row-span-3 grid mt-8">
+
+                    <div class="rows-span-2">
+                      <label for="email" class="label-default mb-1">Email</label>
+                      <input type="email" id="email" class="input-login" placeholder="Digite seu email">
+                    </div> 
+                    
+                    <div class="rows-span-2 mt-5">              
+                        <label for="password" class="label-default mb-1">Senha</label>                
+                        <input type="password" id="password" class="input-login" placeholder="Digite sua senha">  
+                        <h2 class="text-indigo-500/60 w-full justify34-center flex mt-2">Esqueceu sua Senha?</h2>
+                            
+                    </div>
+
+               </div>  
+               
+               <div class="rows-span-2 w-full mt-8">
+                 <button type="submit" class="button-default flex justify-center">Entrar</button>
+               </div>
+
+              </form>
+        </section>
+       
+    </div>      
+
+</div>
+
